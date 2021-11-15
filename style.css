@@ -1,0 +1,24 @@
+ #nav{       
+      text-align:center;
+        }      
+    .nav{     
+      list-style: none;        
+      display: inline;       
+      text-decoration: line-through;     
+        }          
+    .dessert{       
+    list-style: none;     
+        }     
+    .dessert::before{content:"🍰";}     
+    li:nth-child(2){
+      text-decoration: line-through;
+    }
+    p{font-size:140%;}
+    p::first-line{font-size:170%;}
+    p{text-align:justify; text-align-last:center;}
+    p::first-letter{color:red;}
+    
+    img{width:100px; height:100px;}
+    
+    .imgl{float:left;}
+    .imgr{float:right;}
