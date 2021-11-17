@@ -3,16 +3,14 @@
         }      
     .nav{     
       list-style: none;        
-      display: inline;       
-      text-decoration: line-through;     
+      display: inline;         
         }          
     .dessert{       
     list-style: none;     
         }     
     .dessert::before{content:"🍰";}     
-    li:nth-child(2){
-      text-decoration: line-through;
-    }
+    a:not(a:link){text-decoration: line-through;}
+
     p{font-size:140%;}
     p::first-line{font-size:170%;}
     p{text-align:justify; text-align-last:center;}
